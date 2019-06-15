@@ -1,0 +1,14 @@
+package com.epam.tests;
+
+import com.epam.pep.RemoveCharacterA;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+public class RemoveCharacterATest {
+	
+	void testcase1() {
+		RemoveCharacterA remove = new RemoveCharacterA();
+		String actual = remove.remove("ABAA");
+		assertEquals("BAA",actual);
+	}
+	
+}
